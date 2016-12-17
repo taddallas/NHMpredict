@@ -6,7 +6,7 @@
 #' @return outputs a data.frame of 18 columns containing 
 #' information on literature cited as part of the PREDICT database
 #'
-#'
+#' @export
 
 
 nhm_references <- function(bib=FALSE, limit=NULL){

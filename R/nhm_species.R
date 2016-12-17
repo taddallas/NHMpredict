@@ -6,7 +6,7 @@
 #'
 #'
 #'
-
+#' @export
 
 nhm_species <- function(limit=NULL){
   url <- "http://data.nhm.ac.uk"

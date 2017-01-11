@@ -2,17 +2,21 @@
 % Please edit documentation in R/nhm_site.R
 \name{nhm_site}
 \alias{nhm_site}
-\title{Access stuff}
+\title{Search site-level information from the PREDICTS database}
 \usage{
-nhm_site(limit = NULL)
+nhm_site(query = NULL, limit = NULL, year = 2015)
 }
 \arguments{
+\item{query}{full text search of data (default=NULL)}
+
 \item{limit}{number of records to download (if NULL, set to max value = 5000)}
+
+\item{year}{currently only 2015 data are available through the NHM data API (default=2015)}
 }
 \value{
-output
+list of 5 entries (resource_id, fields, records, _links, and total)
 }
 \description{
-Access stuff
+Search site-level information from the PREDICTS database
 }
 

@@ -3,3 +3,4 @@
 export(nhm_references)
 export(nhm_site)
 export(nhm_species)
+export(nhm_summary)

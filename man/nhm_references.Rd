@@ -2,7 +2,7 @@
 % Please edit documentation in R/nhm_references.R
 \name{nhm_references}
 \alias{nhm_references}
-\title{Access or download (bib) PREDICT database references}
+\title{Access or download (bib) PREDICTS database references}
 \usage{
 nhm_references(bib = FALSE, limit = NULL)
 }
@@ -16,6 +16,6 @@ outputs a data.frame of 18 columns containing
 information on literature cited as part of the PREDICT database
 }
 \description{
-Access or download (bib) PREDICT database references
+Access or download (bib) PREDICTS database references
 }
 

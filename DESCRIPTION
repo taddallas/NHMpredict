@@ -2,7 +2,7 @@ Package: NHMpredict
 Title: R interface to the PREDICTS database
 Version: 0.0.0.9000
 Authors@R: person("Tad", "Dallas", email = "tdallas@ucdavis.edu", role = c("aut", "cre"))
-Description: Queries the 2016 release of the PREDICT database, which is an
+Description: Programmatic access to the PREDICTS database, which is an
     acronym for Projecting Responses of Ecological Diversity in Changing Terrestrial
     Systems.
 Depends:

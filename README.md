@@ -1,9 +1,24 @@
-## NHMpredict 
+NHMpredict 
+====
+
+`NHMpredict` gives you access to data from the PREDICTS database, which stands for _Projecting Responses of Ecological Diversity In Changing Terrestrial Systems_. 
 
 
-This is a first pass at setting up an R package capable of querying the PREDICTS database, using the `ckanr` package. It is a very long way off from being usable. Function names and maybe package name will likely change as the package becomes more developed.
+
+
+```r
+install.packages("devtools")
+devtools::install_github("taddallas/NHMpredict")
+```
+
+
+```r
+library("NHMpredict")
+```
 
 
 
+Functionality will evolve as the data become more open. Currently the site summary data is only available by entering an email address, and obtaining a download link. I believe this will change in the future though. In the meantime, `nhm_site` accesses the 2015 PREDICTS database information. Queries are limited to 5000 entries, and I can't figure out a way to search specific columns, which would be useful. 
 
 
+I welcome contributions to this package. 

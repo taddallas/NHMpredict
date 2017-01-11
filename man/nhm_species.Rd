@@ -2,17 +2,19 @@
 % Please edit documentation in R/nhm_species.R
 \name{nhm_species}
 \alias{nhm_species}
-\title{Access}
+\title{Search the PREDICTS database}
 \usage{
 nhm_species(limit = NULL)
 }
 \arguments{
 \item{limit}{number of records to download (if NULL, set to max value = 5000)}
+
+\item{query}{full text search of data (default=NULL)}
 }
 \value{
-output
+list of 5 entries (resource_id, fields, records, _links, and total)
 }
 \description{
-Access
+Search the PREDICTS database
 }
 
